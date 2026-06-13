@@ -271,5 +271,5 @@ with gr.Blocks(theme=gr.themes.Soft(), css=custom_css) as dashboard:
             
             update_btn.click(fn=update_order_status, inputs=[up_id, up_status, up_reason], outputs=update_msg)
 
-# Mount Gradio
+# Mount Gradio for Frontend UI
 app = gr.mount_gradio_app(app, dashboard, path="/")
