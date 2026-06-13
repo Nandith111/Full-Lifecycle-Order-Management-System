@@ -6,5 +6,5 @@ numpy
 joblib
 sqlalchemy
 psycopg2-binary
-request
+requests
 dotenv
